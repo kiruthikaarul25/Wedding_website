@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-royal-gold: #D4AF37;
+  --color-royal-gold-light: #E6C96B;
+  --color-royal-gold-dark: #AA8B2B;
+  
+  --color-deep-maroon: #5C0A18;
+  --color-deep-maroon-light: #7A1224;
+  --color-deep-maroon-dark: #3D050E;
+
+  --color-cream-white: #FFFDD0;
+  --color-cream-dark: #F5F0C2;
+
+  --color-dark-black: #0A0A0A;
+  --color-dark-gray: #1C1C1C;
+
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Cinzel", ui-serif, Georgia, serif;
+  --font-sans: "Lato", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-black text-cream-white font-sans overflow-x-hidden;
+  }
+}
+
+/* Custom Utilities for Luxury Theme */
+.text-gradient-gold {
+  background: linear-gradient(to right, #AA8B2B, #D4AF37, #E6C96B, #D4AF37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.border-gradient-gold {
+  border-image: linear-gradient(to right, #AA8B2B, #D4AF37, #AA8B2B) 1;
+}
+
+.bg-texture {
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+}
+
+.glass-panel {
+  @apply bg-dark-gray/60 backdrop-blur-md border border-royal-gold/20 rounded-2xl;
+}
+
+
+@layer base {
+  body {
+    @apply bg-stone-50 text-stone-900 font-sans antialiased selection:bg-stone-200 selection:text-stone-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight text-stone-900;
+  }
+}

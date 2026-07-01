@@ -1,0 +1,16 @@
+{
+  "name": "Lumina Wedding Studio Portal",
+  "short_name": "Lumina Studios",
+  "description": "Enterprise Client Management and Gallery for Lumina Wedding Studios.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#1c1917",
+  "icons": [
+    {
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTE0LjUgNGgtNWwtMSA0aC0zYTIgMiAwIDAgMCAyIDJ2MTJhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0yVjEwYTIgMiAwIDAgMC0yLTJoLTNsLTEtNHoiPjwvcGF0aD48Y2lyY2xlIGN4PSIxMiIgY3k9IjEzIiByPSIzIj48L2NpcmNsZT48L3N2Zz4=",
+       "sizes": "192x192",
+       "type": "image/svg+xml"
+    }
+  ]
+}
